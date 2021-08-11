@@ -1,0 +1,1260 @@
+@charset "utf-8";
+
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*HEADER_START*/
+#header {
+    width: 100%;
+    height: 680px;
+    display: flex;
+}
+.header_left  {
+    width: 50%;
+    height: 680px;
+    background-color: #271F50;
+    position: relative;
+}
+.header_left dl  {
+    width: 640px;
+    height: auto;
+    text-align: right;
+    position: absolute;
+    top: 50%;right: 0;
+    transform: translateY(-50%);
+    margin-top: 40px;
+    
+}
+.header_left dt  {
+    width: 450px;
+    display: inline-block;
+    color: #f1f1f1;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'GmarketSansBold', 'sans-serif';
+    
+    word-break: keep-all;
+    line-height: 80px;
+    letter-spacing: -2px;
+    
+    margin-bottom: 30px;
+    
+}
+.header_left dd  {
+    color: #f1f1f1;
+    margin-bottom: 20px;
+    font-weight: 100;
+    width: 600px;
+    word-break: keep-all;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 18px;
+    
+}
+
+
+
+.header_right  {
+    width: 50%;
+    height: 680px;
+    padding-left: 40px;
+}
+.header_right ul {
+    padding: 0;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_right li {
+    max-width: 580px;
+}
+
+.name {
+    display: flex;
+    align-items: flex-end;
+}
+.name div {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    
+}
+.name div img {
+    width: 100%;
+    height: auto;
+}
+.name dl {
+    margin-left: 10px;
+}
+.name dt {
+    font-size: 18px;
+}
+.name dt span {
+    font-size: 15px;
+    color: #999;
+    margin-left: 5px;
+}
+.name dd {
+    margin: 3px 0;
+}
+
+
+
+.shcool {
+    margin-top: 20px;
+}
+.shcool dt {
+    font-size: 20px;
+}
+.shcool dt i {
+    font-size: 22px;
+}
+.shcool dd span {
+    color: #999;
+    font-size: 14px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.bz {
+    margin-top: 20px;
+}
+.bz dt {
+    font-size: 20px;
+}
+.bz dt i {
+    font-size: 22px;
+}
+.bz dd {
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+.bz dd span {
+    font-size: 16px;
+    color: #999;
+    display: inline-block
+}
+
+
+.skill {
+    margin-top: 20px;
+}
+.skill > div {
+    line-height: 40px;
+}
+.skill > div strong {}
+.skill > div strong i {
+    font-size: 40px;
+    color: #555;
+}
+.skill > div div {
+    display: inline-block;
+}
+.skill > div div span {
+    width: 28px;
+    height: 28px;
+    background-color: #271F50;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.skill .box_off {
+     background-color:#C8C6D2;
+}
+
+/*HEADER_END*/
+/*MAIN_START*/
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+.main_project {
+    margin: 250px 0
+}
+.project_title {
+    position: relative;
+    height: 200px;
+    margin-bottom: 100px;
+}
+.project_title h2 {
+    color: #fdfdfd;
+    width: 50%;
+    height: 200px;
+    background-color: #271F50;
+    position: absolute;
+    top: 0;right: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.project_title h2 span {
+    font-family: 'GmarketSansBold', 'sans-serif';
+    font-size: 45px;
+}
+
+
+.cinema_mm {
+    width: 1280px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.cinema_mm .img {
+    width: 700px;
+    height: 700px;
+    overflow: hidden;
+    display: inline-block;
+}
+.cinema_mm .img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cinema_mm .text {
+    width: 580px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.cinema_mm .text dt {
+    font-size: 30px;
+}
+.cinema_mm .text dd span {
+    font-weight: bold;
+}
+.cinema_mm p {
+    word-break: keep-all;
+    width: 500px;
+    font-size: 18px;
+}
+.cinema_mm a {
+    width: 200px;
+    line-height: 40px;
+    border: 1px solid#271F50;
+    background-color: #271F50;
+    color: #ddd;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+.cinema_mm a:hover {
+    color: #271F50;
+    background-color: #f1f1f1;
+}
+.cinema_mm .s_img {
+    margin-top: 30px;
+}
+.cinema_mm .s_img div {
+    width: 140px;
+    height: 105px;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.cinema_mm .s_img div img { 
+    object-fit: cover;
+    width: 100%;height: 100%;
+}
+
+
+
+
+
+
+/*스터디*/
+
+.study .project_title {
+    height: 100px;
+}
+.study .project_title h2 {
+    height: 100px;
+}
+
+.study_con {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto 100px auto;
+    display: flex;
+     align-items: center;
+}
+.study_con .img {
+    width: 720px;
+    height: 405px;
+    overflow: hidden;
+}
+.study_con .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.study_con .text {
+    width: 580px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.study_con .text dl {}
+.study_con .text dt {font-size: 30px;}
+.study_con .text dd {}
+
+.study_con p {
+    word-break: keep-all;
+    width: 500px;
+    font-size: 18px;}
+.study_con a {
+    width: 200px;
+    line-height: 40px;
+    border: 1px solid#271F50;
+    background-color: #271F50;
+    color: #ddd;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+.study_con a:hover {
+    color: #271F50;
+    background-color: #f1f1f1;
+}
+
+.naver .text dd:nth-of-type(5) {
+    font-weight: 600;
+    font-size: 17px;
+}
+/*스터디*/
+
+/*MAIN_END*/
+/*FOOTER START*/
+#footer {
+    width: 100%;
+    height: 350px;
+    background-color: #271F50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+    
+}
+#footer strong {
+    color: #ddd;
+    font-size: 18px;
+}
+#footer p {
+    color: #eee;
+    font-size: 18px;
+    margin: 10px 0;
+}
+#footer p:nth-of-type(2) {
+    margin: 0;
+}
+#footer p a {
+   color: #eee;
+    font-size: 18px; 
+}
+/*FOOTER END*/
+
+
+
+/*반응형 시작*/
+@media all and (min-width:721px) and (max-width:1279px) {
+
+    /*HEADER_START*/
+    #header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column
+    }
+    .header_left  {
+        width: 100%;
+        height: 500px;
+    }
+    .header_left dl  {
+        width: 100%;
+        margin-top: 0;
+    }
+    .header_left dt  {
+        width: 50%;
+        font-size: 80px;
+        
+        line-height: 65px;
+        letter-spacing: -2px;
+
+        margin-bottom: 30px;
+    }
+    .header_left dd  {
+        margin-bottom: 10px;
+        width: 85%;
+        margin-right: 5px;
+        font-size: 18px;
+    }
+
+
+
+    .header_right  {
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    .header_right ul {
+        padding: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header_right li {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .name {
+        display: inline-block;
+    }
+    .name div {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin: 0 auto 10px auto;
+    }
+    .name div img {
+        width: 100%;
+    }
+    .name dl {
+        margin-left: 10px;
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .name dt {
+        font-size: 18px;
+    }
+    .name dt span {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .name dd {
+        margin: 3px 0;
+    }
+
+
+
+    .shcool {
+        margin-top: 20px;
+    }
+    .shcool dt {
+        font-size: 20px;
+    }
+    .shcool dt i {
+        font-size: 22px;
+    }
+    .shcool dd span {
+        font-size: 14px;
+        width: 150px;
+    }
+
+
+    .bz {
+        margin-top: 20px;
+    }
+    .bz dt {
+        font-size: 20px;
+    }
+    .bz dt i {
+        font-size: 22px;
+    }
+    .bz dd {
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    .bz dd span {
+        font-size: 16px;
+    }
+
+
+    .skill {
+        margin-top: 20px;
+    }
+    .skill > div {
+        line-height: 40px;
+    }
+    .skill > div strong i {
+        font-size: 32px;
+    }
+    .skill > div div span {
+        width: 20px;
+        height: 20px;
+        border-radius: 2px;
+    }
+
+    /*HEADER_END*/
+    /*MAIN_START*/
+
+    .main_project {
+        margin: 100px 0
+    }
+    .project_title {
+        height: 140px;
+        margin-bottom: 50px;
+    }
+    .project_title h2 {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;left: 0;
+        font-size: 40px;
+        line-height: 40px;
+        padding-left: 10px;
+    }
+    .project_title h2 span {
+        font-size: 45px;
+    }
+
+
+    .cinema_mm {
+        width: 98%;
+        height: 100%;
+        margin: 0 1%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cinema_mm .img {
+        width: 600px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .cinema_mm .text {
+        width: 600px;
+        padding-left: 0;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+    .cinema_mm .text dt {
+        font-size: 30px;
+    }
+    .cinema_mm p {
+        width: 600px;
+        font-size: 18px;
+    }
+    .cinema_mm a {
+        width: 200px;
+        line-height: 40px;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    .cinema_mm .s_img {
+        margin-top: 0;
+    }
+    .cinema_mm .s_img div {
+        width: 170px;
+        height: 120px;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+    /*스터디*/
+
+    .study .project_title {
+        height: 100px;
+    }
+    .study .project_title h2 {
+        height: 100px;
+    }
+
+    .study_con {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 50px auto;
+        display: flex;
+         align-items: center;
+        flex-direction: column;
+    }
+    .study_con .img {
+        width: 600px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .study_con .text {
+        width: 600px;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .study_con .text dt {font-size: 30px;}
+
+    .study_con p {
+        width: 600px;
+        font-size: 18px;
+}
+    .study_con a {
+         width: 200px;
+        line-height: 40px;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    .naver .text dd:nth-of-type(5) {
+        font-size: 17px;
+    }
+    /*스터디*/
+
+    /*MAIN_END*/
+    /*FOOTER START*/
+    #footer {
+        width: 100%;
+        height: 200px;
+        margin-top: 200px;
+
+    }
+    #footer strong {
+        font-size: 18px;
+        text-align: center;
+        width: 90%;
+    }
+    #footer p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    #footer p:nth-of-type(2) {
+        margin: 0;
+    }
+    #footer p a {
+        font-size: 18px; 
+    }
+    /*FOOTER END*/
+
+    
+    
+    
+    
+    
+
+
+}
+@media all and (min-width:481px) and (max-width:720px) {
+    
+    
+    
+    
+    /*HEADER_START*/
+    #header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column
+    }
+    .header_left  {
+        width: 100%;
+        height: 450px;
+    }
+    .header_left dl  {
+        width: 100%;
+        margin-top: 0;
+    }
+    .header_left dt  {
+        width: 50%;
+        font-size: 60px;
+        
+        line-height: 50px;
+        letter-spacing: -2px;
+
+        margin-bottom: 10px;
+    }
+    .header_left dd  {
+        margin-bottom: 10px;
+        width: 90%;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+
+
+
+    .header_right  {
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    .header_right ul {
+        padding: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header_right li {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .name {
+        display: inline-block;
+    }
+    .name div {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin: 0 auto 10px auto;
+    }
+    .name div img {
+        width: 100%;
+    }
+    .name dl {
+        margin-left: 10px;
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .name dt {
+        font-size: 18px;
+    }
+    .name dt span {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .name dd {
+        margin: 3px 0;
+    }
+
+
+
+    .shcool {
+        margin-top: 10px;
+    }
+    .shcool dt {
+        font-size: 18px;
+    }
+    .shcool dt i {
+        font-size: 18px;
+    }
+    .shcool dd span {
+        font-size: 14px;
+        width: 150px;
+        display: block;
+        margin: 10px auto 0 auto;
+    }
+
+
+    .bz {
+        margin-top: 20px;
+    }
+    .bz dt {
+        font-size: 18px;
+    }
+    .bz dt i {
+        font-size: 18px;
+    }
+    .bz dd {
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    .bz dd span {
+        font-size: 16px;
+    }
+
+
+    .skill {
+        margin-top: 20px;
+    }
+    .skill > div {
+        line-height: 30px;
+    }
+    .skill > div strong i {
+        font-size: 25px;
+    }
+    .skill > div div span {
+        width: 18px;
+        height: 18px;
+        border-radius: 2px;
+        margin: 0 -2px;
+    }
+
+    /*HEADER_END*/
+    /*MAIN_START*/
+
+    .main_project {
+        margin: 100px 0
+    }
+    .project_title {
+        height: 120px;
+        margin-bottom: 50px;
+    }
+    .project_title h2 {
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        top: 0;left: 0;
+        font-size: 30px;
+        line-height: 40px;
+        padding-left: 10px;
+    }
+    .project_title h2 span {
+        font-size: 35px;
+    }
+
+
+    .cinema_mm {
+        width: 98%;
+        height: 100%;
+        margin: 0 1%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cinema_mm .img {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .cinema_mm .text {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    .cinema_mm .text dt {
+        font-size: 22px;
+    }
+    .cinema_mm p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .cinema_mm a {
+        width: 150px;
+        line-height: 35px;
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .cinema_mm .s_img {
+        margin-top: 0;
+    }
+    .cinema_mm .s_img div {
+        width: 30%;
+        height: 100px;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+    /*스터디*/
+
+    .study .project_title {
+        height: 100px;
+        height: 80px;
+    }
+    .study .project_title h2 {
+        height: 80px;
+    }
+
+    .study_con {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 50px auto;
+        display: flex;
+         align-items: center;
+        flex-direction: column;
+    }
+    .study_con .img {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .study_con .text {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .study_con .text dt {font-size: 22px;}
+
+    .study_con p {
+        width: 100%;
+        font-size: 16px;
+}
+    .study_con a {
+       width: 150px;
+        line-height: 35px;
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .naver .text dd:nth-of-type(5) {
+        font-size: 17px;
+    }
+    /*스터디*/
+
+    /*MAIN_END*/
+    /*FOOTER START*/
+    #footer {
+        width: 100%;
+        height: 200px;
+        margin-top: 200px;
+
+    }
+    #footer strong {
+        font-size: 16px;
+        text-align: center;
+        width: 90%;
+    }
+    #footer p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    #footer p:nth-of-type(2) {
+        margin: 0;
+    }
+    #footer p a {
+        font-size: 16px; 
+    }
+    /*FOOTER END*/
+    
+    
+    
+    
+    
+    
+
+}
+@media all and (min-width:320px) and (max-width:480px) {
+    
+   
+        /*HEADER_START*/
+        #header {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column
+        }
+        .header_left  {
+            width: 100%;
+            height: 400px;
+        }
+        .header_left dl  {
+            width: 100%;
+            margin-top: 0;
+        }
+        .header_left dt  {
+            width: 50%;
+            font-size: 30px;
+
+            line-height: 25px;
+            letter-spacing: 0;
+
+            margin-bottom: 10px;
+        }
+        .header_left dd  {
+            margin-bottom: 10px;
+            width: 95%;
+            margin-right: 5px;
+            font-size: 13px;
+        }
+
+
+
+        .header_right  {
+            width: 100%;
+            height: 100%;
+            padding-left: 0;
+            margin-top: 50px;
+        }
+        .header_right ul {
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .header_right li {
+            max-width: 100%;
+            text-align: center;
+        }
+
+        .name {
+            display: inline-block;
+        }
+        .name div {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            margin: 0 auto 10px auto;
+        }
+        .name div img {
+            width: 100%;
+        }
+        .name dl {
+            margin-left: 10px;
+            text-align: center;
+            margin: 0 auto;
+            display: inline-block;
+        }
+        .name dt {
+            font-size: 16px;
+        }
+        .name dt span {
+            font-size: 14px;
+            margin-left: 5px;
+        }
+        .name dd {
+            margin: 3px 0;
+        }
+
+
+
+        .shcool {
+            margin-top: 10px;
+        }
+        .shcool dt {
+            font-size: 16px;
+        }
+        .shcool dt i {
+            font-size: 14px;
+        }
+        .shcool dd span {
+            font-size: 13px;
+            width: 150px;
+            display: block;
+            margin: 10px auto 0 auto;
+        }
+
+
+        .bz {
+            margin-top: 20px;
+        }
+        .bz dt {
+            font-size: 16px;
+        }
+        .bz dt i {
+            font-size: 14px;
+        }
+        .bz dd {
+            margin-bottom: 5px;
+            line-height: 20px;
+        }
+        .bz dd span {
+            font-size: 14px;
+            display: block;
+            margin: 0 auto;
+            word-break: keep-all;
+            line-height: 16px;
+            
+        }
+
+
+        .skill {
+            margin-top: 20px;
+        }
+        .skill > div {
+            line-height: 30px;
+        }
+        .skill > div strong i {
+            font-size: 25px;
+        }
+        .skill > div div span {
+            width: 18px;
+            height: 18px;
+            border-radius: 2px;
+            margin: 0 -2px;
+        }
+
+        /*HEADER_END*/
+        /*MAIN_START*/
+
+        .main_project {
+            margin: 60px 0
+        }
+        .project_title {
+            height: 100px;
+            margin-bottom: 30px;
+        }
+        .project_title h2 {
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            top: 0;left: 0;
+            font-size: 24px;
+            line-height: 30px;
+            padding-left: 10px;
+        }
+        .project_title h2 span {
+            font-size: 30px;
+        }
+
+
+        .cinema_mm {
+            width: 98%;
+            height: 100%;
+            margin: 0 1%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .cinema_mm .img {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+        .cinema_mm .text {
+            width: 100%;
+            padding-left: 0;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+        .cinema_mm .text dt {
+            font-size: 22px;
+        }
+        .cinema_mm p {
+            width: 100%;
+            font-size: 14px;
+        }
+        .cinema_mm a {
+            width: 120px;
+            line-height: 30px;
+            font-size: 14px;
+            margin: 20px 0;
+        }
+        .cinema_mm .s_img {
+            margin-top: 0;
+        }
+        .cinema_mm .s_img div {
+            width: 30%;
+            height: 80px;
+            overflow: hidden;
+        }
+
+
+
+
+
+
+        /*스터디*/
+
+        .study .project_title {
+            height: 100px;
+            height: 60px;
+        }
+        .study .project_title h2 {
+            height: 60px;
+        }
+
+        .study_con {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto 50px auto;
+            display: flex;
+             align-items: center;
+            flex-direction: column;
+        }
+        .study_con .img {
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+        }
+        .study_con .text {
+            width: 100%;
+            padding-left: 0;
+            margin-top: 10px;
+        }
+        .study_con .text dt {font-size: 20px;}
+
+        .study_con p {
+            width: 100%;
+            font-size: 14px;
+    }
+        .study_con a {
+           width: 120px;
+            line-height: 30px;
+            font-size: 14px;
+            margin: 20px 0;
+        }
+        .naver .text dd:nth-of-type(5) {
+            font-size: 15px;
+        }
+        /*스터디*/
+
+        /*MAIN_END*/
+        /*FOOTER START*/
+        #footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 150px;
+
+        }
+        #footer strong {
+            font-size: 14px;
+            text-align: center;
+            width: 90%;
+        }
+        #footer p {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        #footer p:nth-of-type(2) {
+            margin: 0;
+        }
+        #footer p a {
+            font-size: 14px; 
+        }
+        /*FOOTER END*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
